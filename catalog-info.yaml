@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "template-java-kotlin-library-test-publish"
+  description: "Repo for testing functionality for publishing releases."
+  annotations:
+    github.com/project-slug: fp-mt-test-org/template-java-kotlin-library-test-publish
+    backstage.io/techdocs-ref: url:https://github.com/fp-mt-test-org/template-java-kotlin-library-test-publish
+    backstage.io/kubernetes-id: template-java-kotlin-library-test-publish
+spec:
+  type: library
+  lifecycle: experimental
+  owner: "Product Infrastructure"
